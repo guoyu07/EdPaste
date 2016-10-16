@@ -15,6 +15,8 @@ Route::get('/', 'PasteController@index');
 Route::post('/', 'PasteController@submit');
 Route::get('/{link}', 'PasteController@view')->where('link', '[a-zA-Z0-9]+');
 Route::post('/{link}', 'PasteController@password')->where('link', '[a-zA-Z0-9]+');
+Route::get('users/dashboard', 'UserController@dashboard');
+Route::post('users/account', 'UserController@account');
 
 // Ouais bon le raw il est useless
 // Route::get('/{link}/raw', 'PasteController@raw')->where('link', '[a-zA-Z0-9]+');
