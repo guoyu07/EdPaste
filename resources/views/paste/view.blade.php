@@ -76,7 +76,7 @@
 	@if ($expired == true)
 	<div class="alert alert-info" role="alert">
 		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-		<i>This paste has expired, however since you wrote it, you may view it whenever you want.</i>
+		<i>This paste has expired, however since you've wrote it, you may view it whenever you want.</i>
 	</div>
 	@endif
 	<div class="row">
