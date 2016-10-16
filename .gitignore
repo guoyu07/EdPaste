@@ -44,6 +44,8 @@ bootstrap/cache/
 .env.*.php
 .env.php
 .env
+.pydio_id
+**/.pydio_id
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
