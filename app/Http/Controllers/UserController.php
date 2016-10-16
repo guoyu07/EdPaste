@@ -9,9 +9,9 @@ use App\Http\Requests;
 class UserController extends Controller
 {
     public function dashboard(){
-		return view('paste/index');
+		return redirect('/');
 	}
 	public function account(){
-		return view('paste/index');
+		return redirect('/');
 	}
 }
