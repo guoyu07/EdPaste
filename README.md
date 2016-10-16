@@ -17,4 +17,3 @@ Go to `http://your.vhost.server.com/` which leads to the DocumentRoot `/app/path
 
 # Todo :
 - Users accounts managements isn't implemented yet, as well as the users dashboard.
-test
