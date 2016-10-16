@@ -1,6 +1,6 @@
 @extends('default')
 
-@section('pagetitle') Home - EdPaste @endsection
+@section('pagetitle') Home - EdPastse @endsection
 
 @section('navbar')
 <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
