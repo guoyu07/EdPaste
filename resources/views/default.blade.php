@@ -48,9 +48,11 @@
 	@yield('content')
 </body>
 <footer>
+<div class="container">
 <div class="row">
 	<h5 class="text-center"><small><i>Made by Pierre T. - <a href="https://github.com/Edraens" target="_blank">Edraens</a>, 2016</i></small></h5>
 </div>
+</div><br />
 </footer>
 
 </html>

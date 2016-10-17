@@ -10,6 +10,9 @@
 
 @section('content')
 <div class="container">
+    <div class="row">
+        <h2 class="text-center display-4">Login</h2>
+    </div><br />
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/users/login') }}">
         {{ csrf_field() }}
         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -42,7 +45,7 @@
             <div class="col-md-6 col-md-offset-4">
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox" name="remember"> Remember Me
+                        <input type="checkbox" name="remember" checked> Remember Me
                     </label>
                 </div>
             </div>

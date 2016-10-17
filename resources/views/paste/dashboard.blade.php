@@ -16,8 +16,14 @@
 
 @section('content')
 <div class="container">
-	<div class="row">
-		<div class="col-xs-1 col-xs-offset-5"><h2><i>Todo</i></h2></div>
-	</div>
+    <div class="row">
+        <h2 class="text-center display-4">Dashboard</h2>
+    </div><br />
+    @foreach ($userPastes as $userPaste)
+    <div class="row">
+    	<div class="col-xs-3"><a href="/{{ $userPaste->link }}"><i>{{ $userPaste->title }}</i></a></div>
+    	<div class="col-xs-8">{{ mb_substr($userPaste->content,0,100,'UTF-8')."..." }}</div>
+    </div>
+    @endforeach
 </div>
 @endsection
